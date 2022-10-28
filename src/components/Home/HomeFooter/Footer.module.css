@@ -1,0 +1,21 @@
+.bottom{
+    border-top:1px solid #D0D0D2;
+    font-family: 'Roboto';
+    color:#838383;
+}
+.footer {
+    color: #343434;
+    background-color: #fcfcfc;
+    font-family: 'Crushy Black';
+}
+.text{
+   color: #0B213E
+}
+.icon{
+    height: 48px;
+    padding: 8px;
+    width: 48px;
+    border-radius: 8px;
+    color: #FCFCFC;
+    background: #2F66EE;
+}

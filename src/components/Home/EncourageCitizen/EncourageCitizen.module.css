@@ -1,0 +1,63 @@
+.EncourageSection {
+    padding-top: 25px;
+}
+
+.button {
+    height: 60px;
+    width: 180px;
+    border-radius: 12px;
+    font-size: large;
+    font-family: "Crushy Black";
+    color: #ffffff;
+    background-color: #2F66EE;
+}
+
+.image11 {
+    margin-top: 25px;
+}
+
+.rightDiv {
+    padding-top: 25px;
+}
+
+.rightDiv p:nth-child(1) {
+    height: 112px;
+    width: 555px;
+    color: #2D200B;
+    font-family: Kartooni;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: 56px;
+    font-weight: 900;
+}
+
+.rightDiv p:nth-child(2) {
+    width: 572px;
+    opacity: 0.8;
+    color: #808080;
+    font-family: "Crushy Black";
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.rightDiv p:nth-child(3) {
+    width: 572px;
+    opacity: 0.8;
+    color: #808080;
+    font-family: "Crushy Black";
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+@media(max-width: 1399.98px) {
+    .privaterow {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+}

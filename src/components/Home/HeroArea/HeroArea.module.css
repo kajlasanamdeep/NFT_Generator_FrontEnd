@@ -1,0 +1,46 @@
+.section {
+    margin-top: 45px;
+    padding-bottom: 75px;
+    background-image: url(../../../assets/images/Decoration.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.container {
+    padding-top: 125px;
+}
+
+.heading {
+    color: #02071b;
+    font-family: Kartooni;
+    font-size: 50px;
+    letter-spacing: 0;
+    line-height: 74px;
+}
+
+.title {
+    color: #2f66ee;
+}
+
+.text {
+    height: 89px;
+    color: #838383;
+    font-family: Crushy Black;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 40px;
+    font-weight: bolder;
+}
+
+.button {
+    height: 60px;
+    width: 150px;
+    background-color: #2f66ee;
+    font-family: "Crushy Black";
+    font-size: 18px;
+}
+
+.image {
+    height: 550px;
+    width: 550px;
+}

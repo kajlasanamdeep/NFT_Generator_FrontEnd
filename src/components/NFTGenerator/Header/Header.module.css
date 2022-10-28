@@ -1,0 +1,39 @@
+.navbar {
+    font-family: "Crushy Black";
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+
+.logo {
+    text-align: center;
+    justify-items: center;
+}
+
+.link {
+    text-align: center;
+    justify-content: center;
+    color: #030815;
+    font-family: Poppins;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 17px;
+}
+
+.brand {
+    justify-content: center;
+    text-align: center;
+    color: #C1C1C1;
+    font-family: Poppins;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 17px;
+}
+
+.profile {
+    color: #C1C1C1;
+    font-family: Poppins;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 16px;
+    text-align: center;
+}

@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes, Outlet, BrowserRouter } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle';
+import Home from './pages/Home';
+import React from 'react';
+import NFTGenerator from './pages/NFTGenerator';
+
+function Layout() {
+  return (
+    <React.Fragment>
+      <Outlet />
+    </React.Fragment>
+    );
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path='NFTGenerator' element={<NFTGenerator/>} />
+          <Route />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

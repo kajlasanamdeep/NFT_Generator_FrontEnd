@@ -1,13 +1,21 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+    font-family: "Crushy Black";   
+    src: url("../src/assets/fonts/Crushy\ Black.ttf");
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    font-family: "kartooni";   
+    src: url("../src/assets/fonts/Kartooni.ttf");
+}
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: var(--bs-modal-color);
+    pointer-events: auto;
+    background-color: none !important;
+    background-clip: padding-box;
+    border:none !important;
+    border-radius: var(--bs-modal-border-radius);
+    outline: 0;
 }

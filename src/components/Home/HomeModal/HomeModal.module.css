@@ -1,0 +1,58 @@
+.leftContent {
+    padding: 72px;
+}
+
+.error {
+    color: red;
+}
+
+.rightContent {
+    height: auto;
+    border-radius: 20px 0px 0px 20px;
+    padding-right: 100px;
+    background-image: url('../../../assets/images/Modal_BG.png');
+    background-size: cover;
+}
+
+
+.rightContentHeading {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 42px;
+    width: 290px;
+    margin-top: 130px;
+    font-weight: bold;
+    letter-spacing: 0;
+    margin-left: 45px;
+    line-height: 71px;
+}
+
+.rightContentText {
+    width: 290px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 50px;
+    letter-spacing: 0;
+    line-height: 32px;
+}
+
+.button {
+    height: 40px;
+    width: 120px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    color: #4164f3;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: none;
+    letter-spacing: 0;
+    line-height: 28px;
+    text-align: center;
+}
