@@ -13,14 +13,12 @@ const Home = () => {
     <React.Fragment>
       <HomeHeader />
       <HomeModal />
-      <div className="container">
-        <HeroArea />
-        <NoCodeNftSection />
-        <HowItWorkSection />
-        <PopularCollections />
-        <EncourageCitizen />
-        <FAQs />
-      </div>
+      <HeroArea />
+      <NoCodeNftSection />
+      <HowItWorkSection />
+      <PopularCollections />
+      <EncourageCitizen />
+      <FAQs />
       <HomeFooter />
     </React.Fragment>
   );
