@@ -21,7 +21,7 @@ export default function Sidebar() {
           return (
             <div key={index} onClick={() => setActive(index)} className={`${style.row}`} style={{ backgroundColor: `${active === index ? '#EAEAEA' : ''}` }}>
               <div className={`${style.column}`}>
-                <img src={item.icon} className={`${style.icon}`} />
+                <img src={item.icon} alt="" className={`${style.icon}`} />
                 <p className={`${style.text}`}>{item.text}</p>
               </div>
             </div>
